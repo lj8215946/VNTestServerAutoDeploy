@@ -1,0 +1,14 @@
+{
+  "name": "auto-deploy-vn",
+  "version": "1.0.0",
+  "description": "auto deploy vn test server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "connorlu",
+  "license": "ISC",
+  "dependencies": {
+    "github-webhook-handler": "^0.7.0"
+  }
+}
