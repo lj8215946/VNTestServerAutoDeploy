@@ -15,7 +15,7 @@ handler.on('push', function (event) {
   console.log('Received a push event for %s to %s',
     event.payload.repository.name,
     event.payload.ref);
-    exec('/root/node.js/auto-deploy-vn/sync.sh', function(err, stdout, stderr){
+    exec('/root/node.js/VNTestServerAutoDeploy/sync.sh', function(err, stdout, stderr){
     if(err) {
       console.log('sync server err: ' + stderr);
     } else {
